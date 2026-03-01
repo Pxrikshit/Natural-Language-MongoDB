@@ -6,7 +6,7 @@ This project demonstrates how Natural Language Processing can simplify database 
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Convert English queries into MongoDB JSON queries
 - AI-powered query generation using Gemini API
@@ -18,7 +18,7 @@ This project demonstrates how Natural Language Processing can simplify database 
 
 ---
 
-## 🏗 Architecture Overview
+##  Architecture Overview
 
 Frontend (React)  
 ⬇  
@@ -32,7 +32,7 @@ Backend → Frontend (Results Display)
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React
@@ -53,9 +53,9 @@ Backend → Frontend (Results Display)
 
 ---
 
-## ⚙ How It Works
+##  How It Works
 
-### 1️⃣ User Input
+### 1️ User Input
 
 User enters a query like:
 
@@ -65,7 +65,7 @@ Show employees with salary greater than 40000
 
 ---
 
-### 2️⃣ Frontend
+### 2️ Frontend
 
 - Sends POST request to backend:
   ```
@@ -78,7 +78,7 @@ Show employees with salary greater than 40000
 
 ---
 
-### 3️⃣ Backend Processing
+### 3️ Backend Processing
 
 - Receives the query
 - Sends it to Gemini API with a structured prompt
@@ -90,7 +90,7 @@ Show employees with salary greater than 40000
 
 ---
 
-### 4️⃣ MongoDB Execution
+### 4️ MongoDB Execution
 
 Backend executes:
 
@@ -100,13 +100,13 @@ Employee.find({ salary: { $gt: 40000 } })
 
 ---
 
-### 5️⃣ Response
+### 5️ Response
 
 Results are sent back to frontend and displayed dynamically.
 
 ---
 
-## 🗄 Database Structure
+##  Database Structure
 
 Collection: `employees`
 
@@ -124,7 +124,7 @@ Example Document:
 
 ---
 
-## 🔐 Environment Variables
+##  Environment Variables
 
 Create a `.env` file inside the `backend/` folder:
 
@@ -136,9 +136,9 @@ PORT=5000
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
-### 1️⃣ Clone Repository
+### 1️ Clone Repository
 
 ```
 git clone <your-repo-link>
@@ -147,7 +147,7 @@ cd Natural-Language-MongoDB
 
 ---
 
-### 2️⃣ Backend Setup
+### 2️ Backend Setup
 
 ```
 cd backend
@@ -162,7 +162,7 @@ http://localhost:5000
 
 ---
 
-### 3️⃣ Frontend Setup
+### 3️ Frontend Setup
 
 ```
 cd frontend
@@ -177,7 +177,7 @@ http://localhost:3000
 
 ---
 
-## 🧠 Key Learning Outcomes
+##  Key Learning Outcomes
 
 - Full-stack REST API development
 - MongoDB dynamic query execution
@@ -189,7 +189,7 @@ http://localhost:3000
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - Support for aggregation queries
 - Multi-collection support
@@ -200,7 +200,7 @@ http://localhost:3000
 
 ---
 
-## 📌 Example Queries
+##  Example Queries
 
 - Show employees with salary greater than 40000
 - Show employees from IT department
@@ -209,6 +209,6 @@ http://localhost:3000
 
 ---
 
-## 📜 License
+##  License
 
 This project is created for educational purposes.
